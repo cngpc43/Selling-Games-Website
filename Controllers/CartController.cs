@@ -108,10 +108,15 @@ public class CartsController : Controller
         {
             return NotFound();
         }
+        if (quantity <= _db.Games.Find(game_id)!.Stock)
+        {
+            cartItem.Quantity = quantity;
+            _db.SaveChanges();
+            return Ok("Successfully updated cart.");
+        }
 
-        cartItem.Quantity = quantity;
-        _db.SaveChanges();
+        return BadRequest("The game is out of stock.");
 
-        return Ok("Successfully updated cart.");
+
     }
 }
