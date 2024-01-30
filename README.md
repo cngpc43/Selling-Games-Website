@@ -1,18 +1,14 @@
 <!-- Banner -->
-<p align="center">
+<!--<p align="center">
   <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
     <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
   </a>
-</p>
+</p> -->
 
-## Develope the Game Store website using ASP.NET Core MVC .NET 7.0
-
-## 👨‍💻 Developers
-- Dao Tien Dat
-- Dao Minh Huy
-- Phan Chi Cuong
-- Truong Duc Quoc
-
+## Even a better version of "IS220"
+- UI improvements
+- Update APIs for logical processes
+- Management page for admin
 ## ⚒️ Techs
 | Front end | Bootstrap, SwiperJS |
 |---|---|
